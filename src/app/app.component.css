@@ -1,0 +1,47 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input[type='text'] {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin-right: 8px;
+}
+
+button {
+  background-color: #0a200b;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+button:hover {
+  background-color: #5aa75e;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+input[type='checkbox'] {
+  margin-right: 8px;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+
